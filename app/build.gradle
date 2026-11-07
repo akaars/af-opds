@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'io.local.tvopds'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'io.local.tvopds'
+        minSdk 23
+        targetSdk 29
+        versionCode 19
+        versionName '0.5.5-inpx'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
